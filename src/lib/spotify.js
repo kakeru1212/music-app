@@ -23,7 +23,7 @@ class SpotifyClient {
 
     async getBestSongs() {
         const response = await axios.get(
-            'https://api.spotify.com/v1/playlists/149624jSwN1SXDdCSEUfpv/tracks',
+            'https://api.spotify.com/v1/playlists/6crhIUrjgWHi3fxR8molrE/tracks',
             {
                 headers: { Authorization: 'Bearer ' + this.token },
             }
